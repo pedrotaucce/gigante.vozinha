@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vozinha já ultrapassou Neymar?</title>
+  <meta name="description" content="A pergunta que o futebol mundial precisa responder, agora com estatísticas quase sérias." />
+  <meta property="og:title" content="Vozinha já ultrapassou Neymar?" />
+  <meta property="og:description" content="A diferença é grande. Mas a Espanha também achava isso." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div class="topbar">
+        <div class="badge" data-i18n="badge">Operação Vozinha Mundial</div>
+        <button id="langBtn" class="lang" type="button">EN</button>
+      </div>
+
+      <h1 data-i18n="question">Vozinha já ultrapassou Neymar?</h1>
+      <div id="answer" class="answer no">...</div>
+
+      <p class="missing">
+        <span id="missingPrefix" data-i18n="loading">Consultando os oráculos do Instagram...</span>
+        <strong id="missingCount"></strong>
+        <span id="missingSuffix"></span>
+      </p>
+
+      <p class="line" id="punchline" data-i18n="punchline">A Espanha também achava que a diferença era grande.</p>
+
+      <div class="actions">
+        <a class="button primary" id="followBtn" href="https://www.instagram.com/Vozinha1/" target="_blank" rel="noopener" data-i18n="follow">Seguir Vozinha</a>
+        <button class="button secondary" id="shareBtn" type="button" data-i18n="share">Compartilhar</button>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2 data-i18n="statsTitle">Estatísticas quase ao vivo</h2>
+
+      <div class="stats">
+        <a class="stat" href="https://www.instagram.com/Vozinha1/" target="_blank" rel="noopener">
+          <span>🇨🇻 @Vozinha1</span>
+          <strong id="vozinhaCount">...</strong>
+        </a>
+        <a class="stat" href="https://www.instagram.com/neymarjr/" target="_blank" rel="noopener">
+          <span>🇧🇷 @neymarjr</span>
+          <strong id="neymarCount">...</strong>
+        </a>
+      </div>
+
+      <div class="progressBox">
+        <div class="progressText">
+          <span data-i18n="progress">Progresso da missão</span>
+          <strong id="progressPct">...</strong>
+        </div>
+        <div class="bar"><div id="progressBar"></div></div>
+      </div>
+
+      <p class="note"><span data-i18n="updated">Última atualização:</span> <span id="updatedAt">...</span></p>
+      <p class="note warning" id="dataWarning"></p>
+    </section>
+
+    <section class="faq">
+      <h2>FAQ</h2>
+
+      <details open>
+        <summary data-i18n="faq1q">Os números são reais?</summary>
+        <p data-i18n="faq1a">A intenção é usar os números públicos dos perfis oficiais no Instagram. Se o Instagram bloquear a consulta automática, mostramos o último valor salvo.</p>
+      </details>
+
+      <details>
+        <summary data-i18n="faq2q">Vozinha realmente vai ultrapassar Neymar?</summary>
+        <p data-i18n="faq2a">A matemática é hostil. Mas goleiro bom vive de contrariar probabilidade.</p>
+      </details>
+
+      <details>
+        <summary data-i18n="faq3q">Isso é sério?</summary>
+        <p data-i18n="faq3a">O SIM e o NÃO são sérios. O resto é futebol.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer><span data-i18n="footer">Feito por gente que respeita defesas difíceis.</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
