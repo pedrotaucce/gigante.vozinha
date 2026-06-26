@@ -1,11 +1,11 @@
 {
   "vozinha": 14000000,
   "neymar": 236000000,
-  "updated_at": "2026-06-26T18:07:39.998591+00:00",
+  "updated_at": "2026-06-26T19:09:33.806675+00:00",
   "source": "imginn fallback + instagram public html",
   "ok": false,
   "errors": {
-    "vozinha": "get_from_imginn: 403 Client Error: Forbidden for url: https://imginn.com/Vozinha1/ | get_from_instagram_meta: Não achei seguidores no HTML do Instagram para @Vozinha1",
-    "neymar": "get_from_imginn: 403 Client Error: Forbidden for url: https://imginn.com/neymarjr/ | get_from_instagram_meta: Não achei seguidores no HTML do Instagram para @neymarjr"
+    "vozinha": "get_from_imginn: 403 Client Error: Forbidden for url: https://imginn.com/Vozinha1/ | get_from_instagram_meta: 429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2FVozinha1%2F&is_from_rle",
+    "neymar": "get_from_imginn: 403 Client Error: Forbidden for url: https://imginn.com/neymarjr/ | get_from_instagram_meta: 429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fneymarjr%2F&is_from_rle"
   }
 }
