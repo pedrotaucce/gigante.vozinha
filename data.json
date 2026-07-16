@@ -1,7 +1,10 @@
 {
   "vozinha": 29300000,
   "neymar": 242100000,
-  "updated_at": "2026-07-16T19:22:06.989534+00:00",
+  "updated_at": "2026-07-16T20:28:41.649511+00:00",
   "source": "imginn fallback + instagram public html",
-  "ok": true
+  "ok": false,
+  "errors": {
+    "neymar": "get_from_imginn: HTTPSConnectionPool(host='imginn.com', port=443): Read timed out. (read timeout=20) | get_from_instagram_meta: Não achei seguidores no HTML do Instagram para @neymarjr"
+  }
 }
