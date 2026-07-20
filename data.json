@@ -1,10 +1,10 @@
 {
   "vozinha": 29500000,
   "neymar": 242500000,
-  "updated_at": "2026-07-20T16:59:19.218150+00:00",
+  "updated_at": "2026-07-20T19:02:43.022076+00:00",
   "source": "imginn fallback + instagram public html",
   "ok": false,
   "errors": {
-    "neymar": "get_from_imginn: HTTPSConnectionPool(host='imginn.com', port=443): Read timed out. (read timeout=20) | get_from_instagram_meta: Não achei seguidores no HTML do Instagram para @neymarjr"
+    "vozinha": "get_from_imginn: HTTPSConnectionPool(host='imginn.com', port=443): Read timed out. (read timeout=20) | get_from_instagram_meta: 429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2FVozinha1%2F&is_from_rle"
   }
 }
