@@ -1,11 +1,7 @@
 {
   "vozinha": 29500000,
-  "neymar": 242500000,
-  "updated_at": "2026-07-23T03:55:45.773091+00:00",
+  "neymar": 242600000,
+  "updated_at": "2026-07-23T06:35:58.635678+00:00",
   "source": "imginn fallback + instagram public html",
-  "ok": false,
-  "errors": {
-    "vozinha": "get_from_imginn: 403 Client Error: Forbidden for url: https://imginn.com/Vozinha1/ | get_from_instagram_meta: Não achei seguidores no HTML do Instagram para @Vozinha1",
-    "neymar": "get_from_imginn: 403 Client Error: Forbidden for url: https://imginn.com/neymarjr/ | get_from_instagram_meta: Não achei seguidores no HTML do Instagram para @neymarjr"
-  }
+  "ok": true
 }
